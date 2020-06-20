@@ -1,0 +1,259 @@
+#part1{
+  background-image:url("https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+#h1{
+     margin-left: 0.2vw;
+	 color:white;
+	 text-align: center;
+	 margin-top: 10%;
+}
+.navbar-brand img{
+	opacity:0.7;
+	max-width: 100%;
+
+}
+
+ #buttons{
+ 	display: flex;
+ 	margin-left: 34vw;
+ 	font-size: 2rem;
+ 	padding: 0 2rem;
+ 	opacity: 0.7;
+ }
+
+#button1{
+	background-color: #27ae60;
+	margin-right: 24px;
+	padding-left: 32px;
+	text-decoration: none;
+	padding-right: 32px;
+	color: white;
+	border-radius: 500px;
+	display: inline-block;
+}
+
+#button1:hover {
+	background-color: #28a745;
+	transform: scale(1.2);
+	margin-right: 3vw;
+	transition: background-color .2s, transform .2s, margin .2s; 
+}
+
+#button2{
+	border: 2px solid aqua;
+	color: cyan;
+	margin-right: 24px;
+	padding-left: 32px;
+	text-decoration: none;
+	padding-right: 32px;
+	border-radius: 500px;
+	display: inline-block;
+}
+
+#button2:hover {
+	background-color: aqua;
+	color: white;
+	transform: scale(1.1);
+	transition: background-color .2s, transform .2s, margin .2s, color .2s; 
+}
+#part2{
+	background-color: snow;
+	padding: 4rem 1rem;
+	height: stretch;
+}
+
+#food{
+	margin: 2rem;
+}
+
+#food:after{
+	 display:block;
+     content: '';
+     background-color: tomato;
+     height: 2px;
+     transform: scaleX(1);
+     width:10%;
+     margin: 0 auto;
+     margin-top: 1rem;
+     margin-bottom: 6rem;
+}
+
+#text2{
+	 text-align: center;
+	 margin:0 8vw;
+}
+#cols{
+	text-align: center;
+	display: inline;
+	margin: 1.5rem 0 1rem 0;
+}
+
+#cols i{
+	margin: 2rem 0 1rem 0;
+	color: tomato;
+}
+#part3 img{
+	height: 200px;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+}
+#part4{
+	background-color: peachpuff;
+	display: block;
+}
+
+#h2{
+	padding: 4rem 7rem;
+}
+
+#h2:after{
+	 display:block;
+     content: '';
+     background-color: tomato;
+     height: 2px;
+     transform: scaleX(1);
+     width:10%;
+     margin: 0 auto;
+     margin-top: 1rem;
+     margin-bottom: 6rem;
+     }
+
+
+#part4 img{
+	width: 200px;
+	height: 404px;
+	margin-top: 0rem;
+	margin-bottom: 10rem;
+	margin-right: 0;
+	margin-left: 55%;
+}
+
+#part4 .line{
+	display: flex;
+	margin-top: 2rem;
+	margin-right: 5rem;
+}
+
+#part4 .count{
+	border-radius: 60%;
+	border: 2px solid white;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	color: white;
+	padding: 0.5rem 0.5rem;
+}
+
+#part4 .content{
+	text-align: left;
+	margin-left: 2rem;
+	font-weight: bold;
+}
+
+#part4 .playstore{
+	display: flex;
+
+}
+
+#part4 .playstore img{
+	margin-top: 100px;
+	width: 200px;
+	height: 100px;
+}
+
+.part5 {
+
+		background-color: snow;
+		padding: 4rem 1rem;
+}
+#cap{
+  display: inline;
+  line-height: 0.8cm;
+}
+#part5b{
+
+	background-image: url("https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+	background-size: cover;
+	background-position: center;
+}
+
+#pizza{
+	color: white;
+	text-align: center;
+}
+
+#pizza:after{
+	 display:block;
+     content: '';
+     background-color: tomato;
+     height: 2px;
+     transform: scaleX(1);
+     width:10%;
+     margin: 0 auto;
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+     }
+
+#review{
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 2.5rem;
+	text-align: left;
+	color: white;
+}
+
+#review img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+#sub{
+	display: inline-flex;
+}
+#subscription{
+	text-align: center;
+}
+#signup{
+	color:green;
+	font-size: 1.8rem;
+}
+#signup2{
+	color: green;
+	size:0.9rem;
+}
+#part6{
+	background:#FFB6C1;
+}
+#tat{
+	text-align: center;
+	display: inline;
+	margin: 0.2rem 0 0.2rem 0;
+	background: white;
+	border-radius: 4rem;
+    column-gap: 50rem;
+     text-align: left;
+       position: relative;
+     border-spacing: 20rem;
+     border-radius: 50px;
+     max-width:400px;
+    font-size: 1.3rem;
+     margin-right: 12px;
+     margin-left: 8px;
+}
+#one{
+	text-align: center;
+}
+
+#tat i{
+	margin: 2rem 0 1rem 0;
+	color: tomato;
+	
+}
