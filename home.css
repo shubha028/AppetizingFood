@@ -47,7 +47,7 @@
 #button2{
 	border: 2px solid aqua;
 	color: cyan;
-	margin-right: 15vw;
+	margin-right: 20vw;
 	padding-left: 32px;
 	text-decoration: none;
 	padding-right: 32px;
@@ -321,7 +321,7 @@ footer{
 
 .media{
 	justify-content: flex-end;
-	margin-left: 25%;
+	margin-left: 15%;
 }
 
 .media i{
