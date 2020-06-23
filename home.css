@@ -20,7 +20,7 @@
 
  #buttons{
  	display: flex;
- 	margin-left: 25vw;
+ 	margin-left: 21vw;
  	font-size: 2rem;
  	padding: 0 2rem;
  	opacity: 0.7;
@@ -321,7 +321,7 @@ footer{
 
 .media{
 	justify-content: flex-end;
-	margin-left: 9%;
+	margin-left: 8%;
 }
 
 .media i{
