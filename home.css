@@ -259,3 +259,89 @@
 	color: tomato;
 	
 }
+#part7{
+	padding: 4rem 1rem;
+	background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#newheading{
+	text-align: center;
+}
+
+#newheading:after{
+	 display:block;
+     content: '';
+     background-color: tomato;
+     height: 2px;
+     transform: scaleX(1);
+     width:10%;
+     margin: 0 auto;
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+     }
+
+#form{
+	margin-left: 25%;
+}
+
+#form p{
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+#form button{
+	margin-top: 20px;
+	margin-left: 45%;
+}
+
+#form textarea{
+	height: 100px;
+}
+
+footer{
+   background-color: dimgray;
+   padding: 1rem;
+}
+
+.handles{
+	display: flex;
+}
+
+.nav a{
+   float: left;
+   color: black;
+}
+
+.nav a:hover{
+	color: white;
+}
+
+.media{
+	justify-content: flex-end;
+	margin-left: 35%;
+}
+
+.media i{
+	color: black;
+	font-size: 1.6rem;
+}
+
+.media i:hover{
+	color: white;
+}
+#send{
+	font-color:black;
+	margin-left: 4.2rem;
+	background-color: green;
+	size:10rem;
+	border-radius: 0.2rem;
+}
+#love{
+	text-align: center;
+}
+#end{
+	color:#FF0000;
+}
