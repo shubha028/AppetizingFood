@@ -7,9 +7,8 @@
   height: 100vh;
 }
 #h1{
-     margin-left: 0.2vw;
+     margin-left: 12vw;
 	 color:white;
-	 text-align: center;
 	 margin-top: 10%;
 }
 .navbar-brand img{
@@ -19,17 +18,16 @@
 }
 
  #buttons{
- 	display: flex;
- 	margin-left: 19vw;
+
+ 	margin-left: 10%;
  	font-size: 2rem;
  	padding: 0 2rem;
- 	opacity: 0.7;
+ 	text-align: left;
  }
 
 #button1{
 	background-color: #27ae60;
-	margin-right: 6vw;
-	padding-left: 32px;
+
 	text-decoration: none;
 	padding-right: 32px;
 	color: white;
@@ -45,9 +43,11 @@
 }
 
 #button2{
+	background-color: transparent;
 	border: 2px solid aqua;
-	color: cyan;
-	margin-right: 25vw;
+	font-color: cyan;
+	margin-left: 2px;
+	margin-right: 60px;
 	padding-left: 32px;
 	text-decoration: none;
 	padding-right: 32px;
@@ -61,6 +61,8 @@
 	transform: scale(1.1);
 	transition: background-color .2s, transform .2s, margin .2s, color .2s; 
 }
+
+
 #part2{
 	background-color: snow;
 	padding: 4rem 1rem;
@@ -141,9 +143,10 @@
 }
 
 #part4 .count{
+
 	border-radius: 60%;
 	border: 2px solid white;
-	display: inline-block;
+	display:inline-block;
 	width: 10%;
 	text-align: center;
 	color: white;
@@ -240,15 +243,16 @@
 	margin: 0.2rem 0 0.2rem 0;
 	background: white;
 	border-radius: 4rem;
-    column-gap: 50rem;
+    column-gap: 60rem;
      text-align: left;
        position: relative;
-     border-spacing: 20rem;
-     border-radius: 50px;
-     max-width:400px;
+     border-spacing: 30rem;
+     border-radius: 60px;
+     max-width:300px;
     font-size: 1.3rem;
-     margin-right: 0.4rem;
-     margin-left: 0.3rem;
+     margin-right: 3rem;
+     margin-left: 3rem;
+     padding:1rem;
 }
 #one{
 	text-align: center;
@@ -321,7 +325,7 @@ footer{
 
 .media{
 	justify-content: flex-end;
-	margin-left: 8%;
+	margin-left: 15%;
 }
 
 .media i{
