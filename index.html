@@ -10,42 +10,53 @@
 
   <link rel="stylesheet"type="text/css" href="home.css">
 <script src="https://kit.fontawesome.com/6b48bb4d45.js" crossorigin="anonymous"></script>
-</table>
 
 </head>
 <body>
-<div id ="part1">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-         <i class="fas fa-utensils fa-4x d-none d-md-inline" style=" margin-top: 20rem; margin-left:2rem;color:white"></i> 
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
-          <a class="nav-link" href="#">HOME DELIVERY
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">HOW IT WORKS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">OUR CITIES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">SIGN IN</a>
-        </li>
-      </ul>
+
+
+
+
+
+<section id ="part1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1"></div>
     </div>
   </div>
-</nav>
+        
+        <nav id="mainavbar" class="navbar navbar-expand-lg  btn-outline-success navbar-dark fixed-top ">
+        <a class="navbar-brand" href="#"><i class="fas fa-utensils fa-3x d-none d-md-inline" style="color: white"></i></a>
+        <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+            <span class="my-1 mx-2 close">X</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navlinks">
+          <ul class="navbar-nav ml-lg-auto ">
+            <li class="nav-item">
+              <div>
+                <a class="nav-link" id="link"  href="#part2">FOOD DELIVERY</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link" href="#part4">HOW IT WORKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link" href="#part5">OUR CITIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link" href="#part7">SIGN IN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
 
 
-<h2 id ="h1">GOODBYE JUNK FOOD<br>
+<div id="h1">
+<h2 >GOODBYE JUNK FOOD<br>
    SAY HELLO SUPER HEALTHY FOOD:)
 </h2>
  <div id="buttons">
@@ -53,10 +64,11 @@
                   <button type="button" id="button2" class="btn btn-outline-primary btn-lg mt-4 coverBtn">Show More</button>
                 </div>
                 
-
-
 </div>
-  <div id="part2" class="container-fluid text-center">
+
+</section>
+
+  <section id="part2" class="container-fluid text-center">
 
         <h2 id="food">GET FOOD FAST - NOT FAST FOOD</h2>
         <p id="text2">Hello! we're OmniFood, your new premium food delivery service. 
@@ -65,7 +77,7 @@
          </p>
 
 
-         <section class="container-fluid">
+         <div class="container-fluid">
            <div class="row align-items-center">
              <div id="cols" class="col-sm-3">
               <i class="fas fa-calendar-day fa-5x"></i>
@@ -96,10 +108,11 @@
                <p>We don't limit your creativity whichmeans you can order whatever you like. You can also choose from our menu containing over 100 delicious meals. It's up to you.</p>
              </div>
            </div>
-         </section>
-  </div>
+         </div>
+       </section>
+  
 
- <div id="part3">
+ <section id="part3">
     <div class="row py-0 px-0">
       <div class="  col-md-3">
         <img src="https://images.unsplash.com/photo-1577594990850-e843a8e91512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
@@ -126,8 +139,8 @@
         <img src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
       </div>
     </div>
-  </div>
-<div id="part4">
+  </section>
+<section id="part4">
     <h2 class="text-center" id="h2">HOW IT WORKS - SIMPLE AS 1, 2, 3</h2>
     <div class="container">
       <div class="row">
@@ -158,8 +171,8 @@
         </div>
       </div>
     </div>
-  </div>
- <div class="part5">
+  </section>
+ <section id ="part5">
     <div class="container">
       <h2 class="text-center" id="heading">WE ARE CURRENTLY IN THESE CITIES</h2>
       <div class="row">
@@ -229,7 +242,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <section id="part5b">
     <div class="container" id="section">
       <h2 id="pizza">OUR CUSTOMERS CANNOT LIVE WITHOUT US!</h2>
@@ -351,7 +364,7 @@
       <a class="nav-link" href="#">ios App</a>
       <a class="nav-link" href="#">Android App</a>
   </nav>
-
+   
   <nav class="media">
       <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
       <a class="nav-link" href="#"><i class="fab fa-instagram-square"></i></a>
@@ -370,6 +383,13 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+<script>
+      $(function () {
+        $(document).scroll(function(){
+          var $nav = $("#mainavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
 </body>
 </html>
