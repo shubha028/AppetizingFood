@@ -1,12 +1,21 @@
+
 #part1{
   background-image:url("https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
  position: relative;
+ margin: 0px;
 
 }
-.navbar-toggler>.close {
+html,body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+<.navbar-toggler>.close {
     display:inline;
 }
 .navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
@@ -14,33 +23,25 @@
 }
 
 
-body{
-	background-repeat: no-repeat;
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-size: 100%;
-	font-family: 'Lato';
-	line-height: 1.5;
-}
 #mainavbar.scrolled {
   background-color: pink !important;
-  transition: background-color 200ms linear;
-  
+  transition: background-color 200ms linear; 
+  display: flex;
 } 
 
 a.nav-link
-{
+{  
     position: relative;
 }
 
-a.nav-link:before {
+.nav-item .nav-link:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: cyan;
+ background-color: cyan;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
@@ -49,14 +50,12 @@ a.nav-link:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
-
 #h1{ 
      margin-left: 12vw;
 	 color:white;
 	 margin-top: 15%;
 	 margin-bottom: 120%;
 }
-
 
  #buttons{
 
