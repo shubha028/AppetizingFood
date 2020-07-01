@@ -144,6 +144,11 @@ a.nav-link:hover:before {
 	width: 100%;
 	margin: 0 auto;
 }
+#part3 img:hover{
+	 animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+
+}
 #part4{
 	background-color: peachpuff;
 	display: block;
