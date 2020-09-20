@@ -1,6 +1,6 @@
 
 #part1{
-  background-image:url("https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+  background-image:url("/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
